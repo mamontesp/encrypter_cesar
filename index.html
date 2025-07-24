@@ -61,16 +61,27 @@
             resize: vertical;
         }
         button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
+            background-color: white;
+            color: #007bff;
+            padding: 12px 24px;
+            border: 2px solid #007bff;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+            margin: 10px 0;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #28a745;
+            color: white;
+            border-color: #28a745;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+            transform: translateY(-1px);
+        }
+        button:focus {
+            outline: 3px solid #80bdff;
+            outline-offset: 2px;
         }
         .shift-input {
             width: 100px;
